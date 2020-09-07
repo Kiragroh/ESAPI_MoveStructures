@@ -32,7 +32,7 @@ namespace VMS.TPS
     public class Script
     {
         // Change these IDs to match your clinical conventions
-        const string SCRIPT_NAME = "Copy&Move-Structure";
+        const string SCRIPT_NAME = "Move-Structure";
 
         public Script()
         {
