@@ -16,6 +16,6 @@ add your own ESAPI-DLL-Files (VMS.TPS.Common.Model.API.dll + VMS.TPS.Common.Mode
 For clinical Mode: Approve the produced .dll in External Treatment Planning if 'Is Writeable = true'
 
 Note:
-
-script is optimized to work with Eclipse 15.1
-absolute beginner should first read my beginnerGuide https://drive.google.com/drive/folders/1-aYUOIfyvAUKtBg9TgEETiz4SYPonDOO
+- some of the code is based on a Reddit comment from FHesp (https://www.reddit.com/r/esapi/comments/i3e4c9/moving_a_structure_with_esapi/)
+- script is optimized to work with Eclipse 15.1
+- absolute beginner should first read my beginnerGuide https://drive.google.com/drive/folders/1-aYUOIfyvAUKtBg9TgEETiz4SYPonDOO
