@@ -5,8 +5,18 @@ This script helps you to Copy&amp;Move a structure in x, y and z-direction in a 
 
 This script has no complex GUI but a simple way to accept UserInput (see 'public class DialogResult' and 'class SelectStructureWindow'). All code is in one file and should be easy to implement in your own scripts.
 
-Instructions:
-1.) Compile the script with your own Esapi-Dependencies.
-2.) Run the script (ScriptApproval is requiered in clinical mode)
-3.) Selct the Base-Stucture.
-4.) Enter x-direction in mm, enter y-direction in mm and enter z-direction in slices (resulting z-displacement in mm depends on the CT slice thickness).
+Workflow:
+
+1.) Selct the Base-Stucture.
+2.) Enter x-direction in mm, enter y-direction in mm and enter z-direction in slices (resulting z-displacement in mm depends on the CT slice thickness).
+3.) The new sctructure has a automatic generated ID that is never to long and include the displacements but rounded (only 13 chars^^)
+
+First-Compile tips:
+
+add your own ESAPI-DLL-Files (VMS.TPS.Common.Model.API.dll + VMS.TPS.Common.Model.Types). Usually found in C:\Program Files\Varian\RTM\15.1\esapi\API
+For clinical Mode: Approve the produced .dll in External Treatment Planning if 'Is Writeable = true'
+
+Note:
+
+script is optimized to work with Eclipse 15.1
+absolute beginner should first read my beginnerGuide https://drive.google.com/drive/folders/1-aYUOIfyvAUKtBg9TgEETiz4SYPonDOO
