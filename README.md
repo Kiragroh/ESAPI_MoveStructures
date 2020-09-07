@@ -1,5 +1,5 @@
 # ESAPI_MoveStructures
-Copy&amp;Moving a structure with simple User-Input-Method
+Copy&amp;Move a structure with simple User-Input-Method
 
 This script helps you to Copy&amp;Move a structure in x, y and z-direction in a opened StructueSet. 
 
