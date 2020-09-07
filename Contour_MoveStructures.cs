@@ -1,32 +1,9 @@
 ////////////////////////////////////////////////////////////////////////////////
-// CreateOptStructures.cs
-//
-//  A ESAPI v15.1+ script that demonstrates optimization structure creation.
-//
-// Applies to:
+// script should work with:
 //      Eclipse Scripting API
 //          15.1.1
 //          15.5
 //
-// Copyright (c) 2017-2018 Varian Medical Systems, Inc.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a copy 
-// of this software and associated documentation files (the "Software"), to deal 
-// in the Software without restriction, including without limitation the rights 
-// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell 
-// copies of the Software, and to permit persons to whom the Software is 
-// furnished to do so, subject to the following conditions:
-//
-//  The above copyright notice and this permission notice shall be included in 
-//  all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
-// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
-// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
-// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
-// THE SOFTWARE.
 ////////////////////////////////////////////////////////////////////////////////
 using System;
 using System.Linq;
@@ -117,7 +94,7 @@ namespace VMS.TPS
 
             int k = 0;
 
-            // Define offsets
+Â Â Â Â Â Â Â Â Â Â Â  // Define offsets
             
             //var inputvalue = Interaction.InputBox("Type Your Value Here");
             double offsetx = 10;
@@ -193,7 +170,7 @@ namespace VMS.TPS
                 m_w.Height = 350;
                 //m_w.SizeToContent = SizeToContent.Height;
                 //m_w.SizeToContent = SizeToContent.Width;
-                m_w.Title = "ZIELVOLUMEN auswählen:";
+                m_w.Title = "Choose structure to copy and move:";
                 var grid = new Grid();
                 m_w.Content = grid;
                 var list = new System.Windows.Controls.ListBox();
