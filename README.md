@@ -8,7 +8,9 @@ This script has no complex GUI but a simple way to accept UserInput (see 'public
 Workflow:
 
 1.) Selct the Base-Stucture.
+
 2.) Enter x-direction in mm, enter y-direction in mm and enter z-direction in slices (resulting z-displacement in mm depends on the CT slice thickness).
+
 3.) The new sctructure has a automatic generated ID that is never to long and include the displacements but rounded (only 13 chars^^)
 
 First-Compile tips:
